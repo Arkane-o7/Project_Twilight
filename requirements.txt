@@ -1,0 +1,52 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+python-dotenv==1.0.0
+requests==2.31.0
+httpx==0.25.2
+
+# AI/ML dependencies
+transformers==4.36.0
+torch==2.1.0
+sentence-transformers==2.2.2
+openai==1.3.0
+diffusers==0.24.0
+accelerate==0.24.1
+
+# Social Media APIs
+tweepy==4.14.0
+instaloader==4.10.3
+facebook-sdk==3.1.0
+python-linkedin-v2==2.0.1
+
+# Database
+sqlalchemy==2.0.23
+sqlite3
+psycopg2-binary==2.9.9
+
+# Web Interface
+streamlit==1.28.2
+gradio==4.8.0
+plotly==5.17.0
+pandas==2.1.4
+
+# Image Processing
+Pillow==10.1.0
+opencv-python==4.8.1.78
+
+# Text Processing
+nltk==3.8.1
+spacy==3.7.2
+textstat==0.7.3
+
+# Utilities
+schedule==1.2.0
+python-crontab==3.0.0
+celery==5.3.4
+redis==5.0.1
+
+# Development
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
